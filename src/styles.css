@@ -154,7 +154,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .footer { position: relative; z-index: 1; text-align: center; padding: 28px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--border); }
 
 /* chat */
-.chat { position: fixed; right: 22px; bottom: 22px; z-index: 100; display: flex; flex-direction: column; align-items: flex-end; gap: 14px; }
+.chat { position: fixed; right: 22px; bottom: 80px; z-index: 100; display: flex; flex-direction: column; align-items: flex-end; gap: 14px; }
 .chat-fab {
   display: grid; place-items: center; width: 60px; height: 60px; border-radius: 50%; border: 0;
   background: linear-gradient(135deg, var(--lav-deep), var(--lav)); color: #0b0713;
@@ -164,7 +164,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 @keyframes halo { from { transform: scale(1); opacity: .7; } to { transform: scale(1.5); opacity: 0; } }
 .chat-fab { position: relative; }
 .chat-window {
-  width: 360px; max-width: calc(100vw - 44px); height: 540px; max-height: calc(100vh - 120px);
+  width: 360px; max-width: calc(100vw - 44px); height: 540px; max-height: calc(100vh - 180px);
   display: flex; flex-direction: column; overflow: hidden; transform-origin: bottom right;
   border-radius: 22px; border: 1px solid var(--border); background: rgba(14, 11, 24, 0.96); backdrop-filter: blur(18px);
   box-shadow: 0 24px 70px rgba(0, 0, 0, .65), 0 0 40px rgba(139, 92, 246, .2);
